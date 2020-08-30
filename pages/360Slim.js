@@ -8,7 +8,7 @@ const Slim = () => {
             <section>
                 <div className='flex mx-auto p-10 justify-around text-white bg-pink-600'>
                     <div>
-                        <img className=''src='/imagemPrincipal.png' alt='360Slim'></img>
+                        <img src='/imagemPrincipal.png' alt='360Slim'></img>
                     </div>
                     <div className='text-auto'>
                         <h1 className='py-6 text-3xl font-bold'>Conheça O Emagrecedor 100% Natural 

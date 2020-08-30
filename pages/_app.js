@@ -1,26 +1,31 @@
 import React from 'react'
 import '../css/styles.css'
 import Link from 'next/link'
-
-
-
-
+import Header from '../components/header'
+import Footer from '../components/footer'
 
 
 const MyApp = ({ Component, pageProps }) => {
     return(
-        <div className='p-2 bg-red-200'>
+        <div>
             <div className=''>
+                
                 <Link href='/'>
                     <img className='h-32 flex mx-auto p-2 justify-around hover:shadow'src='/logo01.jpeg' alt=''></img>
                 </Link>
-            
-                <Component {...pageProps} />
+                <div>
+                    <Header />
+                </div>
+                <div>
+                    <Component {...pageProps} />
+                </div>
+                <div>
+                    <Footer />
+                </div>
+
             </div>
         </div>
     )
 }
 
-export default MyApp
-
-     
+export default MyApp    

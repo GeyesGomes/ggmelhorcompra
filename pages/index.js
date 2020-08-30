@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../components/header'
+
 
 const Index = () => {
     return (
         <div>
-            <div>
-                <Header />
+            <div className='p-8 bg-pink-300'>
+                <img className=''src='/imagemPrincipal.png' alt='360Slim'></img>
             </div>
             <h1 className='p-10 font-bold text-red-800 text-4xl text-center'>
                 ACESSE A PAGINA DE NOSSOS PRODUTOS E CONFIRA!<br />
@@ -17,6 +17,14 @@ const Index = () => {
                 no momento estamos fazendo melhorias em nosso sistema <br />
                 para melhor lhe atender.
             </h2>
+            <div className= 'mx-auto bg-pink-300'>
+                <img src='/d-fineCaps.png' alt='D-Fine Caps'></img>
+                
+                <button className='shadow-xl font-bold hover:bg-pink-800 border py-4 px-10 rounded-full bg-pink-300'>Saiba Mais</button>
+                <button>Comprar Agora</button>
+                
+            </div>
+
         </div>
     )
 }
