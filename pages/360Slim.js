@@ -6,11 +6,11 @@ const Slim = () => {
         <div>
             
             <section>
-                <div className='flex mx-auto p-10 justify-around text-white bg-pink-600'>
+                <div className='mx-auto sm:flex mx-auto p-10 justify-around text-white bg-pink-600'>
                     <div>
                         <img src='/imagemPrincipal.png' alt='360Slim'></img>
                     </div>
-                    <div className='text-auto'>
+                    <div className='text-center sm:text-auto'>
                         <h1 className='py-6 text-3xl font-bold'>Conheça O Emagrecedor 100% Natural 
                             <br /> Que Intensifica A Perda De Peso 
                             <br /> E Queima De Gordura.
