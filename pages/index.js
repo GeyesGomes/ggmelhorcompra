@@ -4,36 +4,19 @@ const Index = () => {
     return (
         <React.Fragment>
             <div className='float-center sm:flex mx-auto justify-around p-10 bg-pink-400'>
-                <img className=''src='/imagemPrincipal.png' alt='360Slim'></img>
-                <div className='justify-items-center p-8'>
-                    <iframe className ='max-h-full max-w-full pb-8 sm:p-8 h-full w-screen'
-                        src = "https://www.youtube.com/embed/Vlz542Y6IHo" 
-                        posição = " absoluta "
-                        
-                        id = " myId "
-                         
-                    ></iframe>
-
-                    <button className='flex mx-auto shadow-xl font-bold hover:bg-pink-800 border py-4 px-10 rounded-full bg-pink-300'>
-                        <a href='https://www.360slim.com.br/?mcr=AYH10246959'>Saiba mais Benefícios</a>
-                    </button>
-                </div>
+                <img src='/imagemPrincipal.png' alt='360Slim'></img>
+                <img className='pt-6'src='/fundoSlim.png' alt='Fundo'></img>
             </div>
-            <h1 className='p-10 font-bold text-red-800 text-4xl text-center'>
-                ACESSE A PAGINA DE NOSSOS PRODUTOS E CONFIRA!<br />
-                Todos os nossos produtos são certificados pela ANVISA.
-
-            </h1>
-            <h2 className='pb-12 font-bold text-red-600 text-4xl text-center'>
-                Obrigado por acessar o nosso site,<br /> 
-                no momento estamos fazendo melhorias em nosso sistema <br />
-                para melhor lhe atender.
-            </h2>
-            
+            <div className='bg-gray-400 h-1'></div>
+            <div className='sm:flex items-center text-center font-bold text-lg sm:justify-around'>
+                <p>TODOS OS PRODUTOS SÃO AUTORIZADOS PELA ANVISA</p>
+                <img className='mx-auto h-32 sm:h-64'src='/Anvisa.png' alt='Anvisa'></img>
+            </div>
+            <div className='bg-gray-400 h-1'></div>
             <div className= 'sm:flex pt-10 justify-around bg-pink-400'>
                 <img src='/d-fineCaps.png' alt='D-Fine Caps'></img>
                 <div>
-                    <h1 className='p-8 font-bold text-xl'>
+                    <h1 className='text-center p-8 font-bold text-xl'>
                         Diferente de outros produtos disponíveis no mercado,<br /> 
                         D-FINE CAPS possui Registro no Ministério da Saúde,<br /> 
                         Autorização da ANVISA e se destaca por apresentar uma composição 100% natural,<br /> 

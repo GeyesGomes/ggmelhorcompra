@@ -4,11 +4,14 @@ import Link from 'next/link'
 
 const Header = () => {
     return (
-        <div className='mx-auto items-center sm:flex justify-around self-center p-3 shadow bg-red-300 mx-auto'>
-            
-            <Link href='/'>
-                <h1 className='text-center p-3 sm:p-3 font-bold hover:shadow text-red-900'>GGMelhorCompra</h1>
-            </Link>
+        <div className='mx-auto text-center items-center sm:flex justify-around self-center p-3 shadow bg-red-300 mx-auto'>
+            <div className='text-center'>
+                <Link href='/'>
+                    <button>
+                        <h1 className='p-3 sm:p-3 font-bold hover:text-red-700 text-red-900'>GGMelhorCompra</h1>
+                    </button>
+                </Link>
+            </div>
             <Link href='/360Slim'>
                 <button className='rounded-full self-center bg-red-500 px-6 h-8 hover:bg-pink-300'>
                     <a>360Slim</a>
@@ -23,10 +26,10 @@ const Header = () => {
             <button className='rounded-full self-center bg-red-500 px-6 h-8 hover:bg-pink-300'>
                 <a href='https://amostra-natudrin.com/?pv=proloz4r&af=afin1673'>NATUDRIN</a>
             </button>
-            
-            
         </div>  
     )
 }
 
 export default Header
+            
+            
